@@ -285,10 +285,8 @@ PRODUCT_PACKAGES += qrngd
 PRODUCT_COPY_FILES += \
         device/lge/mako/qcom_dalvic/dalvikvm:system/bin/dalvikvm \
         device/lge/mako/qcom_dalvic/dexopt:system/bin/dexopt \
-        device/asus/flo/qcom_dalvic/installd:system/bin/installd \
-        device/asus/flo/qcom_dalvic/libcutils.so:system/lib/libcutils.so \
-        device/asus/flo/qcom_dalvic/libdvm.so:system/lib/libdvm.so \
-        device/asus/flo/qcom_dalvic/libqc-opt.so:system/lib/libqc-opt.so 
+        device/lge/mako/qcom_dalvic/installd:system/bin/installd
+
 
 $(call inherit-product, frameworks/native/build/phone-xhdpi-2048-dalvik-heap.mk)
 
